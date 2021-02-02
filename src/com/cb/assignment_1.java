@@ -10,7 +10,7 @@ public class assignment_1 {
         // birinci cozum
 
         int age;
-        do{
+        do {
             System.out.println("How old are you?");
             age = scanner.nextInt();
 
@@ -27,8 +27,7 @@ public class assignment_1 {
             else if (18 <= age) {
                 System.out.println("This movie is appropriate for you.");
             }
-        }
-        while(age > 0); {}
+        } while(age > 0);
 
 
         // ikinci cozum
